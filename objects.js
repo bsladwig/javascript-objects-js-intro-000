@@ -6,7 +6,7 @@ function updatePlaylist() {
   return playlist
 }
 
-function removeFromPlaylist() {
+function removeFromPlaylist(playlist, artistName) {
   delete playlist ["Phil Ochs"];
   return playlist;
 }
